@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__animal_8java_source" xml:lang="en-US">
+<title>Animal.java</title>
+<indexterm><primary>domain/Animal.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__animal_8java_source_1l00001"/><link linkend="_namespacedomain">00001</link> <emphasis role="keyword">package&#32;</emphasis>domain;
+<anchor xml:id="__animal_8java_source_1l00002"/>00002 
+<anchor xml:id="__animal_8java_source_1l00003"/>00003 
+<anchor xml:id="__animal_8java_source_1l00007"/><link linkend="_classdomain_1_1_animal">00007</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_animal">Animal</link>&#32;{
+<anchor xml:id="__animal_8java_source_1l00008"/>00008 
+<anchor xml:id="__animal_8java_source_1l00009"/><link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">00009</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">protected</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>;
+<anchor xml:id="__animal_8java_source_1l00010"/>00010 
+<anchor xml:id="__animal_8java_source_1l00011"/><link linkend="_classdomain_1_1_animal_1a726752b300deaf898df2dd944fce8659">00011</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">protected</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a726752b300deaf898df2dd944fce8659">age</link>;
+<anchor xml:id="__animal_8java_source_1l00012"/>00012 
+<anchor xml:id="__animal_8java_source_1l00013"/>00013 
+<anchor xml:id="__animal_8java_source_1l00021"/><link linkend="_classdomain_1_1_animal_1ad26ff85c6c25eb71be0bbcc368f9d85a">00021</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1ad26ff85c6c25eb71be0bbcc368f9d85a">Animal</link>(String&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>,&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a726752b300deaf898df2dd944fce8659">age</link>)&#32;{&#32;
+<anchor xml:id="__animal_8java_source_1l00022"/>00022 
+<anchor xml:id="__animal_8java_source_1l00023"/>00023 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.name&#32;=&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>;
+<anchor xml:id="__animal_8java_source_1l00024"/>00024 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.age&#32;=&#32;<link linkend="_classdomain_1_1_animal_1a726752b300deaf898df2dd944fce8659">age</link>;
+<anchor xml:id="__animal_8java_source_1l00025"/>00025 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00026"/>00026 
+<anchor xml:id="__animal_8java_source_1l00027"/>00027 
+<anchor xml:id="__animal_8java_source_1l00033"/><link linkend="_classdomain_1_1_animal_1ad168ff1deb4cf3e0628fa8ed6bdacc30">00033</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1ad168ff1deb4cf3e0628fa8ed6bdacc30">sleep</link>()&#32;{&#32;
+<anchor xml:id="__animal_8java_source_1l00034"/>00034 
+<anchor xml:id="__animal_8java_source_1l00035"/>00035 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;I&#32;am&#32;sleeping&quot;</emphasis>);
+<anchor xml:id="__animal_8java_source_1l00036"/>00036 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00037"/>00037 
+<anchor xml:id="__animal_8java_source_1l00038"/>00038 
+<anchor xml:id="__animal_8java_source_1l00044"/><link linkend="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474">00044</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474">eat</link>()&#32;{&#32;
+<anchor xml:id="__animal_8java_source_1l00045"/>00045 
+<anchor xml:id="__animal_8java_source_1l00046"/>00046 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;I&#32;am&#32;eating&quot;</emphasis>);
+<anchor xml:id="__animal_8java_source_1l00047"/>00047 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00048"/>00048 &#32;&#32;&#32;&#32;
+<anchor xml:id="__animal_8java_source_1l00049"/>00049 
+<anchor xml:id="__animal_8java_source_1l00055"/><link linkend="_classdomain_1_1_animal_1a908335602bf4c4a367f109e37c5899af">00055</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a908335602bf4c4a367f109e37c5899af">run</link>()&#32;{&#32;
+<anchor xml:id="__animal_8java_source_1l00056"/>00056 
+<anchor xml:id="__animal_8java_source_1l00057"/>00057 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;I&#32;am&#32;runing&quot;</emphasis>);
+<anchor xml:id="__animal_8java_source_1l00058"/>00058 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00059"/>00059 }
+</programlisting></section>

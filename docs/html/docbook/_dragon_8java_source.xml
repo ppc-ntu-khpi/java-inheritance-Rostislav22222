@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__dragon_8java_source" xml:lang="en-US">
+<title>Dragon.java</title>
+<indexterm><primary>domain/Dragon.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__dragon_8java_source_1l00001"/>00001 
+<anchor xml:id="__dragon_8java_source_1l00002"/>00002 <emphasis role="keyword">package&#32;</emphasis>domain;
+<anchor xml:id="__dragon_8java_source_1l00003"/>00003 
+<anchor xml:id="__dragon_8java_source_1l00004"/>00004 
+<anchor xml:id="__dragon_8java_source_1l00008"/><link linkend="_classdomain_1_1_dragon">00008</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_dragon">Dragon</link>&#32;&#32;<emphasis role="keyword">extends</emphasis>&#32;<link linkend="_classdomain_1_1_animal">Animal</link>&#32;{
+<anchor xml:id="__dragon_8java_source_1l00009"/>00009 &#32;&#32;&#32;&#32;
+<anchor xml:id="__dragon_8java_source_1l00010"/>00010 
+<anchor xml:id="__dragon_8java_source_1l00019"/><link linkend="_classdomain_1_1_dragon_1a4b5b416b750d1295387ccd590e96be69">00019</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_dragon_1a4b5b416b750d1295387ccd590e96be69">Dragon</link>(String&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>,&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a726752b300deaf898df2dd944fce8659">age</link>)&#32;{&#32;
+<anchor xml:id="__dragon_8java_source_1l00020"/>00020 
+<anchor xml:id="__dragon_8java_source_1l00021"/>00021 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;super(<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>,<link linkend="_classdomain_1_1_animal_1a726752b300deaf898df2dd944fce8659">age</link>);
+<anchor xml:id="__dragon_8java_source_1l00022"/>00022 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__dragon_8java_source_1l00023"/>00023 
+<anchor xml:id="__dragon_8java_source_1l00029"/><link linkend="_classdomain_1_1_dragon_1a29d042208a9fa218cfe0f4c3f220454a">00029</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_dragon_1a29d042208a9fa218cfe0f4c3f220454a">cave</link>()&#32;{&#32;
+<anchor xml:id="__dragon_8java_source_1l00030"/>00030 
+<anchor xml:id="__dragon_8java_source_1l00031"/>00031 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;i&apos;m&#32;in&#32;a&#32;cave&quot;</emphasis>);
+<anchor xml:id="__dragon_8java_source_1l00032"/>00032 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__dragon_8java_source_1l00033"/>00033 }
+</programlisting></section>

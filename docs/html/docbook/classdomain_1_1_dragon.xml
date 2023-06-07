@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdomain_1_1_dragon" xml:lang="en-US">
+<title>domain.Dragon Class Reference</title>
+<indexterm><primary>domain.Dragon</primary></indexterm>
+<para>Inheritance diagram for domain.Dragon:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdomain_1_1_dragon.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_dragon_1a4b5b416b750d1295387ccd590e96be69">Dragon</link> (String <link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>, int <link linkend="_classdomain_1_1_animal_1a726752b300deaf898df2dd944fce8659">age</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_dragon_1a29d042208a9fa218cfe0f4c3f220454a">cave</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Member Functions inherited from <link linkend="_classdomain_1_1_animal">domain.Animal</link>        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_animal_1ad26ff85c6c25eb71be0bbcc368f9d85a">Animal</link> (String <link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>, int <link linkend="_classdomain_1_1_animal_1a726752b300deaf898df2dd944fce8659">age</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1ad168ff1deb4cf3e0628fa8ed6bdacc30">sleep</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474">eat</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1a908335602bf4c4a367f109e37c5899af">run</link> ()</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+Protected Attributes inherited from <link linkend="_classdomain_1_1_animal">domain.Animal</link>        <itemizedlist>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classdomain_1_1_animal_1a726752b300deaf898df2dd944fce8659">age</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The class Dragon extends animal </para>
+<para>
+Definition at line <link linkend="__dragon_8java_source_1l00008">8</link> of file <link linkend="__dragon_8java_source">Dragon.java</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdomain_1_1_dragon_1a4b5b416b750d1295387ccd590e96be69"/><section>
+    <title>Dragon()</title>
+<indexterm><primary>Dragon</primary><secondary>domain.Dragon</secondary></indexterm>
+<indexterm><primary>domain.Dragon</primary><secondary>Dragon</secondary></indexterm>
+<para><computeroutput>domain.Dragon.Dragon (String name, int age)</computeroutput></para>
+<para>Dragon</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>name</entry><entry>
+<para>the name. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>age</entry><entry>
+<para>the age. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>public </para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__dragon_8java_source_1l00019">19</link> of file <link linkend="__dragon_8java_source">Dragon.java</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdomain_1_1_dragon_1a29d042208a9fa218cfe0f4c3f220454a"/><section>
+    <title>cave()</title>
+<indexterm><primary>cave</primary><secondary>domain.Dragon</secondary></indexterm>
+<indexterm><primary>domain.Dragon</primary><secondary>cave</secondary></indexterm>
+<para><computeroutput>void domain.Dragon.cave ( )</computeroutput></para>
+<para>Cave </para>
+<para>
+Definition at line <link linkend="__dragon_8java_source_1l00029">29</link> of file <link linkend="__dragon_8java_source">Dragon.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+domain/<link linkend="__dragon_8java">Dragon.java</link></section>
+</section>
